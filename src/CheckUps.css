@@ -1,0 +1,78 @@
+.check-ups-container {
+    width: 20rem; 
+    height: 440px; 
+    overflow: hidden; 
+    background-color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    padding: 10px; 
+    border-radius: 10px;
+  }
+  
+  .doctor-info {
+    flex: 1; 
+    overflow: hidden; 
+    font-size: 10px; 
+    color: black; 
+  }
+  .doctor-info h2.Check-Ups{border-bottom: 1px solid #ccc;
+    font-size:18px;
+    margin-top: -3.8px;
+    }
+
+    .doctor-info .Xray{border-bottom: 1px solid #ccc;color:red}
+  
+  .doctor-info h2 {
+    font-size: 14px; 
+    white-space: nowrap; 
+  }
+  
+  .doctor-info h2.Dr{border-bottom: 1px solid #ccc;
+    color:rgb(60, 193, 255)
+
+    }
+  .x-ray-list { overflow: hidden;
+    flex: 1; 
+    font-size: 12px; 
+    color: black; 
+  }
+  .x-ray-list2{flex: 1; 
+    font-size: 12px; 
+    color: black; 
+
+  }
+  .x-ray-list2 .x-ray-row2 {overflow: hidden;line-height: 14.52px;
+    display: flex; border-bottom: 1px solid #ccc; }
+    
+  .x-ray-list2 .x-ray-row2 .x-ray-cell2 {margin-left:10px;
+    flex: 1; border-bottom: none;
+    padding: px; 
+  }
+  
+  
+  .x-ray-list .x-ray-row { border-bottom: 1px solid #ccc;
+    display: flex; 
+  }
+  
+  .x-ray-list .x-ray-row .x-ray-cell {margin-left:10px;line-height: 14.52px;
+    flex: 1; border-bottom: none;
+    padding: 1px; 
+  }
+  
+  .number-buttons {overflow-x: scroll;
+    display: flex; 
+    background-color: inherit; 
+    
+  }
+  
+  .number-buttons button {color:#ccc;border-radius: 100%;
+    flex: 1; 
+    margin: 7px; 
+    font-size: 10px; 
+    padding: 1px 5px; 
+    background-color: inherit; 
+    border-radius: 70%; 
+    border: 1px solid #ccc; 
+  }
+  
